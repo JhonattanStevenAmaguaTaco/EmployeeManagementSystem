@@ -1,0 +1,60 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# NetBeans specific files
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.cache/
+.netbeans/
+nbproject/private/
+*.orig
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Windows Thumbs.db files
+Thumbs.db
+
+# MacOS specific files
+.DS_Store
+
+# Eclipse specific files (if you use Eclipse occasionally)
+.metadata/
+bin/
+tmp/
+*.bak
+*.swp
+*~.nib
+.localhistory/
+.settings/
+.classpath
+.project
+.loadpath
+
+# IntelliJ IDEA specific files (if you use IntelliJ IDEA occasionally)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
