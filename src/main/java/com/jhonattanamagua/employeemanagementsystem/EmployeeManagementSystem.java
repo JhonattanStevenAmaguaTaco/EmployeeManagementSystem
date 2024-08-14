@@ -17,7 +17,7 @@ import com.jhonattanamagua.employeemanagementsystem.service.interfaces.IEmployee
 public class EmployeeManagementSystem {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       
         IEmployeeRepository repository= new EmployeeRepository();
         IEmployeeService service = new EmployeeService(repository);
         EmployeeController controller = new EmployeeController(service);

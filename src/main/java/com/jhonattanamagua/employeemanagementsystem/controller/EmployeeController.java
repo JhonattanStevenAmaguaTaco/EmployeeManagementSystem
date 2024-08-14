@@ -78,9 +78,9 @@ public class EmployeeController {
         Employee employee = employeeService.getEmployeeById(id);
         if(employee!=null)throw new ArgumentedException(Errors.EMPLOYEE_ALREADY_EXIST.toString());
         System.out.println("Enter Employee Name:");
-        String name = scanner.nextLine();
+        String name = scanner.nextLine().toUpperCase();
         System.out.println("Enter Employee Salary:");
-        input = scanner.nextLine().toUpperCase();
+        input = scanner.nextLine();
         if(validateDoubleInput(input))throw new ArgumentedException(Errors.INVALID_FORMAT.toString());
         salary=Double.parseDouble(input);
         employee = new Employee(id, name, salary);
