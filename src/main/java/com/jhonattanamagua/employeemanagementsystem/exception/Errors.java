@@ -9,11 +9,12 @@ package com.jhonattanamagua.employeemanagementsystem.exception;
  * @author PC Master
  */
 public class Errors {
-
+    public static final String EMPLOYEE_ALREADY_EXIST = "Employee already exist.";
     public static final String EMPLOYEE_NOT_FOUND = "Employee not found.";
     public static final String INVALID_EMPLOYEE_NAME = "Invalid employee name.";
     public static final String INVALID_EMPLOYEE_SALARY = "Invalid employee salary.";
-
+    public static final String INVALID_CHOICE="Invalid choice";
+    public static final String INVALID_FORMAT="Invalid format";
 
     public static class EmployeeNotFound extends ArgumentedException {
         public EmployeeNotFound() {
