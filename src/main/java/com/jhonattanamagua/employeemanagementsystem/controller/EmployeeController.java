@@ -151,6 +151,9 @@ public class EmployeeController {
         Long var;
          try {
                 var = Long.parseLong(input);
+                if (var <=0){
+                    return true;
+                }
             } catch (NumberFormatException e) {
                 return true;   
             }
@@ -158,17 +161,25 @@ public class EmployeeController {
     }
      public boolean validateDoubleInput(String input){
         Double var;
+        
          try {
                 var = Double.parseDouble(input);
+                if (var <=0){
+                    return true;
+                }
             } catch (NumberFormatException e) {
                 return true;   
             }
+         
     return false;
     }
      public boolean validateIntInput(String input){
         int var;
          try {
                 var = Integer.parseInt(input);
+                if (var <=0){
+                    return true;
+                }
             } catch (NumberFormatException e) {
                 return true;   
             }
